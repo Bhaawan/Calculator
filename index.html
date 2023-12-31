@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="../dist/css/style_index.css">
+    <script src="https://kit.fontawesome.com/6f77a9355c.js" crossorigin="anonymous"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+    <div class="main">
+
+        <div class="main_sub">
+            <input type="text" class="inp">
+            <div class="arrow">
+                <button class="btn arrow_btn" data-mode="collapsed"><i class="fa-solid fa-angle-down fa-lg"></i></button>
+            </div>
+            <div class="abc abc_hidden">
+                <div class="my_buttons1">
+                    <button class="btn squre_root_btn">√</button>
+                    <button class="btn pi_btn">𝝿</button>
+                    <button class="btn power_btn">^</button>
+                    <button class="btn squre_root_btn">e</button>
+                    <button class="btn squre_root_btn">INV</button>
+                    <button class="btn squre_root_btn">sin</button>
+                    <button class="btn squre_root_btn">cos</button>
+                    <button class="btn squre_root_btn">tan</button>
+                    <button class="btn squre_root_btn">ln</button>
+                    <button class="btn squre_root_btn">log</button>
+                </div>
+            </div>
+            <div class="my_buttons">
+                <button class="btn ac_btn" id="acbt">AC</button>
+                <button class="btn op" id="left_bracketbt">(</button>
+                <button class="btn op" id="right_bracketbt">)</button>
+                <button class="btn op" id="bt_%">%</button>
+                
+                <button class="btn" id="7bt">7</button>
+                <button class="btn" id="8bt">8</button>
+                <button class="btn" id="9bt">9</button>
+                <button class="btn op" id="bt_/">/</button>
+                
+                <button class="btn" id="4bt">4</button>
+                <button class="btn" id="5bt">5</button>
+                <button class="btn" id="6bt">6</button>
+                <button class="btn op" id="bt_*">*</button>
+                
+                <button class="btn" id="1bt">1</button>
+                <button class="btn" id="2bt">2</button>
+                <button class="btn" id="3bt">3</button>
+                <button class="btn op" id="bt_-">-</button>
+                
+                <button class="btn" id="0bt">0</button>
+                <button class="btn op" id="bt_.">.</button>
+                <button class="btn back_btn" id="backbt"><i class="fa-solid fa-delete-left fa-sm"></i></button>
+                <button class="btn op" id="bt_+">+</button>
+                
+                <div class="last_row">
+                    <button class="dark_mode_button" data-mode="light">
+                        <i class="fa-solid fa-moon"></i>
+                    </button>
+                    <button class="btn equal_btn" id="equalbt">=</button>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="./index.js"></script>
+</body>
+</html>

@@ -1,0 +1,234 @@
+body {
+  background-color: #E1FFEE;
+}
+
+* {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 35px;
+  transition: all 250ms ease;
+}
+
+.my_buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 85px);
+  grid-template-rows: repeat(5, 85px);
+  margin-top: 5px;
+  z-index: 5;
+}
+
+.my_buttons2 {
+  grid-template-rows: repeat(5, 70px);
+}
+.my_buttons2 .btn {
+  font-size: 30px;
+}
+
+.last_row {
+  display: grid;
+  grid-template-columns: repeat(2, 171px);
+  grid-template-rows: 85px;
+}
+
+.last_row1 {
+  grid-template-rows: 70px;
+}
+
+.inp {
+  width: 325px;
+  height: 65px;
+  border-radius: 50px;
+  border: none;
+  font-size: 30px;
+  padding: 0px 8px;
+  background-color: #6de1d9;
+  transition: all 200ms ease;
+  margin-bottom: 5px;
+}
+
+.btn {
+  margin: 5px;
+  border-radius: 50px;
+  background-color: #d9f2e5;
+  border: none;
+  transition: all 200ms ease;
+}
+
+.op, .back_btn, .equal_btn, .brackets {
+  background-color: rgb(170, 217, 235);
+}
+
+.ac_btn {
+  background-color: #4ce8a9;
+}
+
+.main {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main_sub {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  border-radius: 30px;
+  padding: 10px;
+  background-color: #D0F5BE;
+  box-shadow: 0px 0px 20px black;
+}
+
+.button_hover {
+  background-color: #22668D;
+  color: #FFFADD;
+  box-shadow: 5px 5px black;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.button_clicked {
+  background-color: #17445e;
+  box-shadow: 2px 2px black;
+}
+
+.main_sub1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 450px;
+}
+
+.arrow {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.arrow_btn {
+  background-color: #0f2338;
+  color: #d9f2e5;
+  font-size: 25px;
+  height: 40px;
+  width: 40px;
+  border-radius: 100px;
+}
+
+.arrow_button_hover {
+  background-color: rgb(43, 41, 167);
+  border-radius: 10px;
+}
+
+.arrow_button_click {
+  box-shadow: 2px 2px 0px black;
+  background-color: rgb(33, 31, 128);
+}
+
+.abc {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  background-color: #8fa882;
+  border-radius: 20px;
+  transition: all 2000ms ease;
+  margin-top: 5px;
+  z-index: 1;
+  opacity: 1;
+}
+
+.abc_hidden {
+  display: none;
+  opacity: 0;
+}
+
+.my_buttons1 {
+  display: grid;
+  grid-template-columns: repeat(5, 68px);
+  grid-template-rows: repeat(2, 53px);
+}
+.my_buttons1 .btn {
+  font-size: 25px;
+  border-radius: 15px;
+}
+
+@media (max-width: 420px) {
+  .my_buttons {
+    grid-template-columns: repeat(4, 22vw);
+    grid-template-rows: repeat(6, 22vw);
+    margin-top: 10px;
+  }
+  .last_row {
+    grid-template-columns: repeat(2, 44vw);
+    grid-template-rows: 22vw;
+  }
+  .inp {
+    width: 82vw;
+    height: 55px;
+    border-radius: 50px;
+    font-size: 25px;
+  }
+  .arrow_btn {
+    font-size: 25px;
+  }
+  .my_buttons1 {
+    grid-template-columns: repeat(5, 17.5vw);
+    grid-template-rows: repeat(2, 13vw);
+  }
+  * {
+    font-size: 25px;
+  }
+}
+.dark_mode_button {
+  border-radius: 50px;
+  border: none;
+  margin: 5px;
+  background-color: #0f2338;
+  color: #E1FFEE;
+}
+
+.dark_mode_button_hover {
+  background-color: rgb(43, 41, 167);
+  color: #FFFADD;
+  box-shadow: 5px 5px black;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.dark_mode_button_clicked {
+  background-color: rgba(43, 41, 167, 0.666);
+  box-shadow: 2px 2px black;
+}
+
+.dark_mode_button1 {
+  background-color: rgb(126, 191, 216);
+  color: yellow;
+}
+
+.body_dark {
+  background-color: #2C3333;
+}
+
+.main_sub_dark {
+  background-color: #4c7986;
+}
+
+.btn_dark {
+  background-color: #4f5853;
+  color: #E7F6F2;
+}
+
+.op_dark {
+  background-color: rgb(104, 133, 145);
+}
+
+.ac_btn_dark {
+  background-color: #329a71;
+}
+
+.inp_dark {
+  background-color: #50a49f;
+  color: #E1FFEE;
+}/*# sourceMappingURL=style_index.css.map */
